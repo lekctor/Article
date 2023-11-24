@@ -175,6 +175,19 @@ line-height: 150%;
     border-radius: 14px;
 }
 
+.Plant {
+  display: flex;
+  flex-direction: row;
+  align-self: stretch;
+  gap: 24px;
+}
+
+.Experience {
+  height: 400px;
+  width: 400px;
+  border-radius: 14px;
+}
+
 .pavel-photo {
 display: flex;
 flex-direction: column;
@@ -404,4 +417,23 @@ line-height: 150%;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  }
+
+  @media (max-width:768px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .navbar {
+      flex-wrap: wrap;
+    }
+  }
+
+
+  @media (max-width:320px) {
+    .container {
+      flex-wrap: wrap;
+    }
+    .navbar {
+      flex-wrap: wrap;
+    }
   }
